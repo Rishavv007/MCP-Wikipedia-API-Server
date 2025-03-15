@@ -18,3 +18,8 @@ Works with **Google Colab** + **Ngrok** for quick deployment
 Run this command in a Colab cell:
 ```sh
 !pip install fastapi uvicorn pyngrok requests wikipedia-api nest_asyncio
+ ``` 
+### Authenticate Ngrok
+Run this command in a Colab cell:
+```sh
+!ngrok config add-authtoken YOUR_TOKEN
