@@ -14,7 +14,7 @@ Works with **Google Colab** + **Ngrok** for quick deployment
 
 ## How to Run in Google Colab
 
-### 1️. Install Required Dependencies  
+### Install Required Dependencies  
 Run this command in a Colab cell:
 ```sh
 !pip install fastapi uvicorn pyngrok requests wikipedia-api nest_asyncio
